@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "997aa93a-4234-44cd-979d-81523c4c9530",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "",
@@ -152,8 +152,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "7703da26-4519-488b-908b-e9903832312a",
             "zIndex": 2,
+            "id": "7703da26-4519-488b-908b-e9903832312a",
             "data": {
               "type": "tm.Text",
               "name": "Authorization Provider",
@@ -181,6 +181,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -264,7 +265,6 @@
               ]
             },
             "id": "ff52d70f-3b17-4760-95dd-8d4ac95d67b4",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "",
@@ -295,8 +295,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "cc53061a-2aeb-42fb-9685-eb93e83b58bc",
             "zIndex": 4,
+            "id": "cc53061a-2aeb-42fb-9685-eb93e83b58bc",
             "data": {
               "type": "tm.Text",
               "name": "LDAP",
@@ -324,6 +324,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -407,7 +408,6 @@
               ]
             },
             "id": "2af3481c-cc30-461a-959a-f2684110bbe8",
-            "zIndex": 5,
             "data": {
               "type": "tm.Store",
               "name": "Store",
@@ -444,6 +444,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -527,7 +528,6 @@
               ]
             },
             "id": "5f336a0d-bfff-4af7-91a5-a25c297f6bf6",
-            "zIndex": 6,
             "data": {
               "type": "tm.Actor",
               "name": "Elevation of Privilege",
